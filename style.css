@@ -1,0 +1,44 @@
+body{
+    background-color: #25d5e2 ;
+}
+h1{
+    background-color: rgb(7, 6, 101);
+    color: rgb(230, 241, 17);
+    font-size: 50px;
+    text-align: center;
+    animation: color-change 3s infinite;
+}
+p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    background-color: #683123;
+    width: 150px;
+    height: 80px;
+    color: #f6eae7;
+    font-size: 20px;
+    border: solid 2px black;
+    border-radius: 16px;
+    padding: 16px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+}
+img:hover{
+    transform: scale(2,2);
+}
+
+@keyframes color-change{
+    0%{
+        background-color: rgb(227, 10, 10);
+    }
+    50%{
+        background-color: rgb(13, 117, 18);
+    }
+    100%{
+        background-color: rgb(5, 13, 78);
+    }
+}
